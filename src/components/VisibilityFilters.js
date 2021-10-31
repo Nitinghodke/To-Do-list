@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import "../../App.css";
+import "../App.css";
 import { connect } from 'react-redux'
-import { addTodos, removeTodos, completeTodos } from "../reducer/reducer";
+import { addTodos, removeTodos, completeTodos } from "../redux/reducer/reducer";
 import TodoList from './TodoList';
 
 const mapStateToProps = (state) => {
@@ -32,7 +32,7 @@ function VisibilityFilters(props) {
             </div>
 
             <div className="row my-3">
-                <div className="col-md-10 text-center mx-auto">
+                <div >
 
                     <ul>
                         {

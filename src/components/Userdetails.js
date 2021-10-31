@@ -16,9 +16,9 @@ function Userdetails() {
     return (
         <>
            <div>
-               <h1>WEL-COME:{user.name}</h1>
+               <h5>WEL-COME:{user.name}</h5>
            </div>
-            <div className="form-group pb-4 text-center ">
+            <div className="form-group  text-center ">
                 <button className="btn btn-danger my-4" onClick={(e) => handleLogout(e)}>Logout</button>
             </div>
         </>

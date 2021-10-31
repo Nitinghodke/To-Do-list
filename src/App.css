@@ -7,7 +7,7 @@
 }
 
 .userDetails {
-  height: 250px;
+  height: 180px;
 }
 
 .tododetails {
@@ -38,25 +38,14 @@
   color: #ffffff;
   border: 1px solid #ffffff;
 }
-
-.fa-check-double {
-  padding: 8px 12px;
-  margin: 0px 5px;
-  border-radius: 10px;
+ 
+.list-group-item h1{
+  display: inline-block;
+  font-size: 20px !important;
 }
+ 
+.list-group-item button{
+  float: right;
+  
 
-.fa-times {
-  padding: 8px 14px;
-  margin: 0px 5px;
-  border-radius: 10px;
-}
-
-.fa-thumbs-up {
-  padding: 8px 12px;
-  margin: 0px 5px;
-  border-radius: 10px;
-}
-
-li:nth-child(odd) {
-  background-color: rgb(230, 203, 169);
 }
